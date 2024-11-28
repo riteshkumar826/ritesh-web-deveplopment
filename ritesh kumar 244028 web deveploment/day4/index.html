@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            background-color: rgb(7, 7, 7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .childone{
+            background-color: rgb(237, 5, 5);
+            height: 300px;
+            width: 300px;
+        }
+        .childone:hover{
+           /* transform: rotate(360deg);*/
+           transform: translateY(180px);
+            transition: 1s;
+            translate: 90px;
+          box-shadow: 10px 10px 10px black;
+            
+        }
+        .childtwo{
+            background-color: rgb(126, 9, 235);
+            height: 300px;
+            width: 300px;
+        }
+        .childtwo:hover{
+            transform: translateX(180px);
+            transition: 1s;
+            box-shadow: 10px 10px 10px black;
+            translate: 90px;
+        }
+        
+        .url{
+            display: flex;
+            gap: 50px;
+           
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="childone">
+
+    </div>
+  <div class="childtwo">
+
+  </div>
+</div>
+<!--navbar-->
+<nav>
+    <div class="logo">
+        <img src="https://c8.alamy.com/comp/2C492JY/nasa-national-aeronautics-and-space-administration-logo-2C492JY.jpg" alt="" width="100px">
+
+    </div>
+    <div class="menu"></div>
+    <url>
+        <li>Home</li>
+        <li>content</li>
+        <li>Home1</li>
+        <li>Home2</li>
+        <li>Home3</li>
+        <li>Home3</li>
+        <li>Home4</li>
+        
+    </url>
+</nav>
+</body>
+</html>
